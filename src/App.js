@@ -29,7 +29,7 @@ function App() {
         <div className="container">
           <div className="text-center p-4 )">
             <input
-              className="rounded-2xl p-3 text-lg  border-solid  bg-gray-900 bg-[rgba(0,0,0,0.25)] outline-none"
+              className="rounded-2xl p-3 text-lg  border-solid  bg-gray-900  ] outline-none"
               type="text"
               value={location}
               onChange={(event) => setLocation(event.target.value)}
