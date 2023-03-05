@@ -5,14 +5,12 @@ import { useState } from "react";
 function App() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState("");
-  // require(".env").config();
-  // const APIKEY = "3d27350a1c632cd22f0b0a55f7cce822";
 
-  const APIKEY = process.env.REACT_APP_API_KEY;
+  const { REACT_APP_API_KEY } = process.env;
 
   // `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${APIKEY}
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${APIKEY}&units=metric`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${REACT_APP_API_KEY}&units=metric`;
 
   const searchLocation = (event) => {
     if (event.key === "Enter") {
