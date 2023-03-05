@@ -51,7 +51,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="bottom flex justify-center space-x-10  bg-[rgba(0,0,0,0.35)] p-12 rounded-[1rem] ">
+          <div className="bottom flex max-[8rem] justify-center space-x-10  bg-[rgba(0,0,0,0.35)] p-12 rounded-[1rem] ">
             <div className="feels ">
               {data.main ? (
                 <p className="text-2xl">
