@@ -1,0 +1,30 @@
+{
+  "coord": { "lon": -97.147, "lat": 49.8844 },
+  "weather": [
+    { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01d" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 270.5,
+    "feels_like": 265.52,
+    "temp_min": 268.73,
+    "temp_max": 273.16,
+    "pressure": 999,
+    "humidity": 73
+  },
+  "visibility": 10000,
+  "wind": { "speed": 4.12, "deg": 280 },
+  "clouds": { "all": 0 },
+  "dt": 1677877212,
+  "sys": {
+    "type": 1,
+    "id": 738,
+    "country": "CA",
+    "sunrise": 1677848892,
+    "sunset": 1677888794
+  },
+  "timezone": -21600,
+  "id": 6183235,
+  "name": "Winnipeg",
+  "cod": 200
+}
